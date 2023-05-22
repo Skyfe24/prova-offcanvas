@@ -73,3 +73,6 @@ tbody{
 #accordionExample{
 border: 1px solid;
 }
+#offcanvasRight{
+    width: 1000px;
+    }
