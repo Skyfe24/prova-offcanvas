@@ -23,21 +23,24 @@
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <div class="container"></div>
-                <div class="row"></div>
-                    <Div class="col-12">
+            <div class="container-fluid">
+                <div class="row">
+                    <Div class="col-12 col-md-6">
                         <label for="exampleDataList" class="form-label">Nome</label>
                         <input class="form-control" list="datalistOptions" id="exampleDataList">
                     </Div>
-                    <Div class="col-12">
+                    <Div class="col-12 col-md-6">
                         <label for="exampleDataList" class="form-label">Cognome</label>
                         <input class="form-control" list="datalistOptions" id="exampleDataList">
                     </Div>
-                    <div class="input-group col-12 mt-3">
-                        <span class="input-group-text" id="basic-addon1">@</span>
-                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    <div class="col-12 col-md-6">
+                        <label for="exampleDataList" class="form-label">Email</label>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                          </div>
                     </div>
-                    <Div class="col-12">
+                    <Div class=" col-12 col-md-6">
                         <label for="exampleDataList" class="form-label">Password</label>
                         <input class="form-control" list="datalistOptions" id="exampleDataList">
                     </Div>
@@ -45,11 +48,11 @@
                         <label for="exampleDataList" class="form-label">Indirizzo</label>
                         <input class="form-control" list="datalistOptions" id="exampleDataList">
                     </Div>
-                    <Div class="col-12">
+                    <Div class="col-12 col-md-6">
                         <label for="exampleDataList" class="form-label">Città</label>
                         <input class="form-control" list="datalistOptions" id="exampleDataList">
                     </Div>
-                    <Div class="col-12">
+                    <Div class="col-12 col-md-4">
                         <label for="exampleDataList" class="form-label">Stato</label>
                         <select class="form-select" id="inputGroupSelect02">
                             <option selected>Scegli...</option>
@@ -58,12 +61,26 @@
                             <option value="3">Inghilterra</option>
                           </select>
                     </Div> 
-                    <Div class="col-12">
+                    <Div class="col-12 col-md-2">
                         <label for="exampleDataList" class="form-label">CAP</label>
                         <input class="form-control" list="datalistOptions" id="exampleDataList">
                     </Div>
+                    <Div class="col-12">
+                        <label for="exampleDataList" class="form-label">Foto</label>
+                        <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                        
+                    </Div>
 
-
+                    <div class="form-check mt-3 col-12 ps-2 ms-4">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Seleziona per proseguire
+                        </label>
+                    </div>
+                     <div class="col-12 mt-3">
+                        <button class="btn btn-primary" type="submit"> Salva </button> <button class="btn btn-warning" type="submit"> Svuota</button>
+                    </div>   
+                     
 
 
 

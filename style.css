@@ -1,78 +1,81 @@
-.my-yellow{
-    color: rgb(230, 151, 48);
+.my-yellow {
+  color: rgb(230, 151, 48);
 }
-.bg-mygrey{
-    background-color: #dee3e4;
+.bg-mygrey {
+  background-color: #dee3e4;
 }
-.bg-mygrey2{
-    background-color: rgb(192, 198, 201);
+.bg-mygrey2 {
+  background-color: rgb(192, 198, 201);
 }
-.bigcontainer{
-    width: 100%;
-    height: auto;
-    padding-top: 43px;
-    
+.bigcontainer {
+  width: 100%;
+  height: auto;
+  padding-top: 43px;
 }
-.image-mobile{
-    width: 40px;
+.image-mobile {
+  width: 40px;
 }
-.topblue{
-    width: 100%;
-    height: auto;
-    
+.topblue {
+  width: 100%;
+  height: auto;
 }
-.cards-area{
-    width: 100%;
-    height: 100px;
+.cards-area {
+  width: 100%;
+  height: 100px;
 }
-.height-100{
-    height: 100px;
+.height-100 {
+  height: 100px;
 }
-header{
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 2;
-    background-color: white;
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  background-color: white;
 }
 .sidebar {
-    width: 130px;
-    height: auto;
-    border: solid rgb(25, 0, 255);
-    
-    color: #ffffff;
-    background-image: url(img/sidebar-bg.png);
-    background-color: rgb(8, 1, 71);
+  width: 130px;
+  height: auto;
+  border: solid rgb(25, 0, 255);
+
+  color: #ffffff;
+  background-image: url(img/sidebar-bg.png);
+  background-color: rgb(8, 1, 71);
 }
 .wrapper {
-    width: 100%;
-    height: 100%;
-    
+  width: 100%;
+  height: 100%;
 }
-.main-part{
-    width: 100%;
-    --bs-gutter-x: 0;
+.main-part {
+  width: 100%;
+  --bs-gutter-x: 0;
 }
-.whitey{
-    color: white;
+.whitey {
+  color: white;
 }
-.bg-whitey{
-    background-color: white;
+.bg-whitey {
+  background-color: white;
 }
-.bg-blue{
-    background-color: rgb(5, 5, 68);
+.bg-blue {
+  background-color: rgb(5, 5, 68);
 }
-.bg-yellowy{background-color: rgb(206, 206, 56);}
-.avtr{
-    width: 20px;
+.bg-yellowy {
+  background-color: rgb(206, 206, 56);
 }
-tbody{
-    line-height: 40px;
+.avtr {
+  width: 20px;
 }
-#accordionExample{
-border: 1px solid;
+tbody {
+  line-height: 40px;
 }
-#offcanvasRight{
-    width: 1000px;
-    }
+#accordionExample {
+  border: 1px solid;
+}
+#offcanvasRight {
+  width: 1000px;
+}
+
+.form-label {
+  font-weight: 600 /* rtl:600 */;
+}
